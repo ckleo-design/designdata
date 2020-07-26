@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  // data 1 part 1
+  // data 1
   var source = $("#isometricScene").html();
   var template = Handlebars.compile(source);
   var values = {
@@ -284,7 +284,7 @@ $(document).ready(function() {
   var html = template(values);
   $("#dataArea-1").html(html);
 
-  // data 2 part 1
+  // data 2
   var source = $("#food").html();
   var template = Handlebars.compile(source);
   var values = {
@@ -516,5 +516,89 @@ $(document).ready(function() {
   };
   var html = template(values);
   $("#dataArea-2").html(html);
+
+  // data 3
+  var source = $("#business").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {img : "business1",link : "https://drive.google.com/file/d/14dE9XLXJgSdd5pDft0TwAtgVh1FNp_RH/view?usp=sharing"},
+      {img : "business2",link : "https://drive.google.com/file/d/1cqU5CbrUn1ue4fNQZVm0maFkC6rfrz5b/view?usp=sharing"},
+      {img : "business3",link : "https://drive.google.com/file/d/1JnddqiFERGX4kugdcPdnrH8briOjzNgE/view?usp=sharing"},
+      {img : "business4",link : "https://drive.google.com/file/d/1vjlXch281x7XMPmiX610XXg_wMXd1nkk/view?usp=sharing"},
+      {img : "business5",link : "https://drive.google.com/file/d/117wNjHLfjiAOzxhi6NjZoa8XcTYAx54m/view?usp=sharing"},
+      {img : "business6",link : "https://drive.google.com/file/d/1cHeCZkdDEfA1LYvsrecJSAbB1tPhl8h9/view?usp=sharing"},
+      {img : "business7",link : "https://drive.google.com/file/d/1DgoD8RC68vGAQMaIvDDXsJpc5syjhpE4/view?usp=sharing"},
+      {img : "business8",link : "https://drive.google.com/file/d/1vTUAR3ILSISk5Z4j2NIKT1oMOx4L5qUw/view?usp=sharing"},
+      {img : "business9",link : "https://drive.google.com/file/d/1bcuaJKdZusWWlzA6uNYFDRjj1TXTvV32/view?usp=sharing"},
+      {img : "business10",link : "https://drive.google.com/file/d/16YWTdzZa-DLk3H0--Nbjs3asAJUjGRyk/view?usp=sharing"},
+      {img : "business11",link : "https://drive.google.com/file/d/1rZTfrN8wshGY5BxI7Jta_jDLZdXJqiN5/view?usp=sharing"},
+      {img : "business12",link : "https://drive.google.com/file/d/1885WGW6RgspWxDVIxis9C1u3MRX_Ufgh/view?usp=sharing"},
+      {img : "business13",link : "https://drive.google.com/file/d/11IK_POL32vLFUNx-f7vkNQntuTEKK1RF/view?usp=sharing"},
+    ]
+  };
+  var html = template(values);
+  $("#dataArea-3").html(html);
+
+  // data 4
+  var source = $("#brochure").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {img : "brochure1",link : "https://drive.google.com/file/d/1B5jI-fK85BJs4viwECYqmuEFdyTA9Z5D/view?usp=sharing"},
+      {img : "brochure2",link : "https://drive.google.com/file/d/1PpaolWjFK-phtceEC3sCQeMl6sYAMl6s/view?usp=sharing"},
+      {img : "brochure3",link : "https://drive.google.com/file/d/1iEURRO1e_SYvp_-5989FwaZeqI0uMTHq/view?usp=sharing"},
+      {img : "brochure4",link : "https://drive.google.com/file/d/1ECPWG8Ccd8Y8Yk3WIAtyZLTEqbZF8bCp/view?usp=sharing"},
+      {img : "brochure5",link : "https://drive.google.com/file/d/1a09o3SOGtPmOJZ2FZD4pImCqU9CseB96/view?usp=sharing"},
+      {img : "brochure6",link : "https://drive.google.com/file/d/1irGAtWKKr0VjBGnIGhXJKVtytaccmr-l/view?usp=sharing"},
+      {img : "brochure7",link : "https://drive.google.com/file/d/1_KfmE8Swkkz_DgNmclyuVczSh2h5kjsF/view?usp=sharing"},
+      {img : "brochure8",link : "https://drive.google.com/file/d/1p8SdrdPKr7e6OuSKK62N_1FWH8fe5Gsf/view?usp=sharing"},
+      {img : "brochure9",link : "https://drive.google.com/file/d/1GONOJ0Q3laMTmEitBcFDuic4hDKYZ_cY/view?usp=sharing"},
+      {img : "brochure10",link : "https://drive.google.com/file/d/10TtTb0j52MvK7zykf3HsTi7LPrS4mnku/view?usp=sharing"},
+      {img : "brochure11",link : "https://drive.google.com/file/d/1T3k6RKmTTJjoGDvpBdAISgexmQSGt8AH/view?usp=sharing"},
+      {img : "brochure12",link : "https://drive.google.com/file/d/1Ro5SlHjmwFLON3xDFm3PJYFZAcIi3EUj/view?usp=sharing"},
+      {img : "brochure13",link : "https://drive.google.com/file/d/1lZESFeQzaVHGMf8c4bSxHlQBPJpKD18O/view?usp=sharing"},
+      {img : "brochure14",link : "https://drive.google.com/file/d/1gmqb4LCkIPZbp9bUrt8I0nI-1zN4T2FE/view?usp=sharing"},
+      {img : "brochure15",link : "https://drive.google.com/file/d/1baeWknDQbq0_cqXJ5bo5dTAAoRJpM9YL/view?usp=sharing"},
+      {img : "brochure16",link : "https://drive.google.com/file/d/1hqv74wbuwIAUoZ2SU0gVVm1ueSztzNuT/view?usp=sharing"},
+      {img : "brochure17",link : "https://drive.google.com/file/d/1gUkrb91dUDPlINTrQ_WU2i-wwIUx268z/view?usp=sharing"},
+    ]
+  };
+  var html = template(values);
+  $("#dataArea-4").html(html);
+
+  // data 5
+  var source = $("#cosmetic").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {img : "cosmetic1",link : "https://drive.google.com/file/d/1s7sjkzbrmY2Js2CD2k_CF3HiLAeFnu03/view?usp=sharing"},
+      {img : "cosmetic2",link : "https://drive.google.com/file/d/1tZEMBuEb6JU_MtMdL0uR0J4OMO6l-icK/view?usp=sharing"},
+      {img : "cosmetic3",link : "https://drive.google.com/file/d/1g4YbC_z3UpsJM8Z-R7WliFk6pJhRxuo5/view?usp=sharing"},
+      {img : "cosmetic4",link : "https://drive.google.com/file/d/11TP7UudZA5ApnLNr_3if5bn1ipXXruBD/view?usp=sharing"},
+      {img : "cosmetic5",link : "https://drive.google.com/file/d/1Tf7Q-3cFBZSkcH7yd7_0E3BKYhikTIkY/view?usp=sharing"},
+      {img : "cosmetic6",link : "https://drive.google.com/file/d/1VM4oWSgMyu8dA5c_9sCymzyJRho7ZZ92/view?usp=sharing"},
+      {img : "cosmetic7",link : "https://drive.google.com/file/d/1NIdDqbxmbCrt48qIzJyhGVhg1JQF-8Js/view?usp=sharing"},
+      {img : "cosmetic8",link : "https://drive.google.com/file/d/1a6duWeMUPm5KrrK96UBPBTO7BXRYncq0/view?usp=sharing"},
+      {img : "cosmetic9",link : "https://drive.google.com/file/d/10RQ_r-O_ver7CzC7zoeXYkolzCLiSIAn/view?usp=sharing"},
+      {img : "cosmetic10",link : "https://drive.google.com/file/d/1dANWlAc6xXrki6qvrug9ZOyUpayk1X_Q/view?usp=sharing"},
+      {img : "cosmetic11",link : "https://drive.google.com/file/d/1iH0TPWZt6IWAElDIQKSnkCA4XZg-Kqh-/view?usp=sharing"},
+      {img : "cosmetic12",link : "https://drive.google.com/file/d/1GyuKUx-vMK-XQ2EZUXaS7l8-kX9Tyv04/view?usp=sharing"},
+      {img : "cosmetic13",link : "https://drive.google.com/file/d/1somGxtskoS1Y7xzTuRmm46CZdWN4cAZs/view?usp=sharing"},
+
+    ]
+  };
+  var html = template(values);
+  $("#dataArea-5").html(html);
+
+  // sample
+  // var source = $("#").html();
+  // var template = Handlebars.compile(source);
+  // var values = {
+  //   data: [{
+  //     ]
+  //   };
+  //   var html = template(values);
+  //   $("#dataArea-3").html(html);
 
 });
