@@ -57,9 +57,12 @@ header {
   }
 
   .dataArea {
+    width: 1360px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start;
 
     .dataBox {
       width: 240px;
@@ -104,6 +107,16 @@ header {
           }
           &.btn3{
             width: 33.3%;
+          }
+        }
+      }
+    }
+    &#dataArea-1{
+      .dataBox:first-child{
+        .dataDlBtn a{
+          width: 100%;
+          &:last-child{
+            display: none;
           }
         }
       }
