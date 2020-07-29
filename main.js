@@ -458,6 +458,28 @@ $(document).ready(function() {
   var html = template(values);
   $("#dataArea-6").html(html);
 
+  // data 7
+  var source = $("#wedding_menu").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {img : "wedding_menu_1",link : "https://drive.google.com/file/d/1Osf1yatCYb1IsRBQ_fojVpoB9cJVoFXe/view?usp=sharing"},
+      {img : "wedding_menu_2",link : "https://drive.google.com/file/d/1ECEPgbKyRGMTui9sZI779W2ZHF_0F3dw/view?usp=sharing"},
+      {img : "wedding_menu_3",link : "https://drive.google.com/file/d/1nnJFjunmZndFEjfC9_lXOcdQC9Zx_xEw/view?usp=sharing"},
+      {img : "wedding_menu_4",link : "https://drive.google.com/file/d/1IoYdeKvDzbHp2rtIcfJwwB2WrMP6huLI/view?usp=sharing"},
+      {img : "wedding_menu_5",link : "https://drive.google.com/file/d/1QkL6H0Axbxy6jur55jRIUoPP-ZJ5YKhW/view?usp=sharing"},
+      {img : "wedding_menu_6",link : "https://drive.google.com/file/d/1hhtHzKdtJAMV_HHiRppYZsPWpE291u0D/view?usp=sharing"},
+      {img : "wedding_menu_7",link : "https://drive.google.com/file/d/18_9iRLAXiKRyQKVXJIkn1qGJNgYpbw-h/view?usp=sharing"},
+      {img : "wedding_menu_8",link : "https://drive.google.com/file/d/1yKjkqjEeCK1MNrVM_tUgk1bWqGsHWVgR/view?usp=sharing"},
+      {img : "wedding_menu_9",link : "https://drive.google.com/file/d/149qn9VLh1RHKmptFuVavtxSu-FURDnEC/view?usp=sharing"},
+      {img : "wedding_menu_10",link : "https://drive.google.com/file/d/1CLD8MvjzjLy1fMTjG0RjfeN5Ecq4hbjA/view?usp=sharing"},
+      {img : "wedding_menu_11",link : "https://drive.google.com/file/d/1qZYXBcxIQ5im1tEa1yVY9kt7am946v10/view?usp=sharing"},
+      {img : "wedding_menu_12",link : "https://drive.google.com/file/d/11Kv5LOKg_NoBRi1_v5LjhzfJsPMkxYjb/view?usp=sharing"},
+    ]
+  };
+  var html = template(values);
+  $("#dataArea-7").html(html);
+
   // sample
   // var source = $("#").html();
   // var template = Handlebars.compile(source);
