@@ -21,9 +21,19 @@
       <li><a href="https://drive.google.com/drive/folders/1DS8InqYGU_bWJaCyYDLWcEjTrSJHNy3R?usp=sharing" target="_blank">Google Drive</a></li>
     </ul>
   </header>
+  <section class="filter" id="filter">
+      <script type="text/x-handlebars-template" id="filterArea">
+      {{#each data}}
+        <div class="filter_box {{filterClass}}">
+          <button type="button" class="">{{filterName}}</button>
+        </div>
+      {{/each}}
+    </script>
+  </section>
+
   <section class="dataSection">
     <!-- data 1 -->
-    <div class="dataArea" id="dataArea-1">
+    <div class="dataArea active" id="dataArea-1">
       <script type="text/x-handlebars-template" id="isometricScene">
         {{#each data}}
         <div class="dataBox">
@@ -40,7 +50,7 @@
     </div>
 
     <!-- data 2 -->
-    <div class="dataArea" id="dataArea-2">
+    <div class="dataArea active" id="dataArea-2">
       <script type="text/x-handlebars-template" id="food">
         {{#each data}}
         <div class="dataBox">
@@ -56,7 +66,7 @@
     </div>
 
     <!-- data 3 -->
-    <div class="dataArea" id="dataArea-3">
+    <div class="dataArea active" id="dataArea-3">
       <script type="text/x-handlebars-template" id="business">
         {{#each data}}
         <div class="dataBox">
@@ -72,7 +82,7 @@
     </div>
 
     <!-- data 4 -->
-    <div class="dataArea" id="dataArea-4">
+    <div class="dataArea active" id="dataArea-4">
       <script type="text/x-handlebars-template" id="brochure">
         {{#each data}}
         <div class="dataBox">
@@ -88,7 +98,7 @@
     </div>
 
     <!-- data 5 -->
-    <div class="dataArea" id="dataArea-5">
+    <div class="dataArea active" id="dataArea-5">
       <script type="text/x-handlebars-template" id="cosmetic">
         {{#each data}}
         <div class="dataBox">
@@ -104,7 +114,7 @@
     </div>
 
     <!-- data 6 -->
-    <div class="dataArea" id="dataArea-6">
+    <div class="dataArea active" id="dataArea-6">
       <script type="text/x-handlebars-template" id="plant">
         {{#each data}}
         <div class="dataBox">
@@ -120,7 +130,7 @@
     </div>
 
     <!-- data 7 -->
-    <div class="dataArea" id="dataArea-7">
+    <div class="dataArea active" id="dataArea-7">
       <script type="text/x-handlebars-template" id="wedding_menu">
         {{#each data}}
         <div class="dataBox">
@@ -136,8 +146,120 @@
     </div>
 
     <!-- data 8 -->
-    <div class="dataArea" id="dataArea-8">
+    <div class="dataArea active" id="dataArea-8">
       <script type="text/x-handlebars-template" id="brand">
+        {{#each data}}
+        <div class="dataBox">
+          <div class="dataImg">
+            <img src="images/{{img}}.jpg" alt="">
+          </div>
+          <div class="dataDlBtn">
+            <a class="" href="{{link}}" target="_blank">PSD</a>
+          </div>
+        </div>
+        {{/each}}
+      </script>
+    </div>
+
+    <!-- data 9 -->
+    <div class="dataArea active" id="dataArea-9">
+      <script type="text/x-handlebars-template" id="knitwear">
+        {{#each data}}
+        <div class="dataBox">
+          <div class="dataImg">
+            <img src="images/{{img}}.jpg" alt="">
+          </div>
+          <div class="dataDlBtn">
+            <a class="" href="{{link}}" target="_blank">PSD</a>
+          </div>
+        </div>
+        {{/each}}
+      </script>
+    </div>
+
+    <!-- data 10 -->
+    <div class="dataArea active" id="dataArea-10">
+      <script type="text/x-handlebars-template" id="smartphone">
+        {{#each data}}
+        <div class="dataBox">
+          <div class="dataImg">
+            <img src="images/{{img}}.jpg" alt="">
+          </div>
+          <div class="dataDlBtn">
+            <a class="" href="{{link}}" target="_blank">PSD</a>
+          </div>
+        </div>
+        {{/each}}
+      </script>
+    </div>
+
+    <!-- data 11 -->
+    <div class="dataArea active" id="dataArea-11">
+      <script type="text/x-handlebars-template" id="outdoorad">
+        {{#each data}}
+        <div class="dataBox">
+          <div class="dataImg">
+            <img src="images/{{img}}.jpg" alt="">
+          </div>
+          <div class="dataDlBtn">
+            <a class="" href="{{link}}" target="_blank">PSD</a>
+          </div>
+        </div>
+        {{/each}}
+      </script>
+    </div>
+
+    <!-- data 12 -->
+    <div class="dataArea active" id="dataArea-12">
+      <script type="text/x-handlebars-template" id="box">
+        {{#each data}}
+        <div class="dataBox">
+          <div class="dataImg">
+            <img src="images/{{img}}.jpg" alt="">
+          </div>
+          <div class="dataDlBtn">
+            <a class="" href="{{link}}" target="_blank">PSD</a>
+          </div>
+        </div>
+        {{/each}}
+      </script>
+    </div>
+
+    <!-- data 13 -->
+    <div class="dataArea active" id="dataArea-13">
+      <script type="text/x-handlebars-template" id="sign">
+        {{#each data}}
+        <div class="dataBox">
+          <div class="dataImg">
+            <img src="images/{{img}}.jpg" alt="">
+          </div>
+          <div class="dataDlBtn">
+            <a class="" href="{{link}}" target="_blank">PSD</a>
+          </div>
+        </div>
+        {{/each}}
+      </script>
+    </div>
+
+    <!-- data 14 -->
+    <div class="dataArea active" id="dataArea-14">
+      <script type="text/x-handlebars-template" id="frame">
+        {{#each data}}
+        <div class="dataBox">
+          <div class="dataImg">
+            <img src="images/{{img}}.jpg" alt="">
+          </div>
+          <div class="dataDlBtn">
+            <a class="" href="{{link}}" target="_blank">PSD</a>
+          </div>
+        </div>
+        {{/each}}
+      </script>
+    </div>
+
+    <!-- data 15 -->
+    <div class="dataArea active" id="dataArea-15">
+      <script type="text/x-handlebars-template" id="pillow">
         {{#each data}}
         <div class="dataBox">
           <div class="dataImg">

@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+
   // data 1
   var source = $("#isometricScene").html();
   var template = Handlebars.compile(source);
@@ -606,6 +607,197 @@ $(document).ready(function() {
     };
     var html = template(values);
     $("#dataArea-8").html(html);
+
+  // data 9
+  var source = $("#knitwear").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {img : "88VL",link : "https://drive.google.com/drive/folders/1SzbAS-vrANNv0ycpuDWy8bAJF8AL04zu?usp=sharing"},
+      {img : "380VL",link : "https://drive.google.com/drive/folders/1GCM9G2mqnuSBanVBCTqmtq28m6YCWttL?usp=sharing"},
+      {img : "780B",link : "https://drive.google.com/drive/folders/1IrCSRnlXivWdlf0hZvuSngUJH05IZLJ1?usp=sharing"},
+      {img : "880",link : "https://drive.google.com/drive/folders/12GsdUTH1nbRn3Il0DJk1ib5YXFZkmWEB?usp=sharing"},
+      {img : "882L",link : "https://drive.google.com/drive/folders/1voMFaEOrDvuMVYJcQ61zZEgRwyKtTraz?usp=sharing"},
+      {img : "884L",link : "https://drive.google.com/drive/folders/1kueJKSMsXFfm7YQnD9v6wv2Z1QWxhO6K?usp=sharing"},
+      {img : "887L",link : "https://drive.google.com/drive/folders/1mSkshpczKNLHl0dSjiHKAKJOfIf0wuQV?usp=sharing"},
+      {img : "949",link : "https://drive.google.com/drive/folders/1TZpjUNzFuERSA30fLYY47ngU_4r0NMgl?usp=sharing"},
+      {img : "980",link : "https://drive.google.com/drive/folders/1CaFIKppR69XM735R0wNMuchkektiFXtu?usp=sharing"},
+      {img : "982",link : "https://drive.google.com/drive/folders/1vV9KsPD1XJvtP7D6GIT8ZiOHGWJpPXKM?usp=sharing"},
+      {img : "986",link : "https://drive.google.com/drive/folders/1Dq9AS9u-z_hQVnWx7vEQeLLnpHQQ-xHX?usp=sharing"},
+      {img : "987",link : "https://drive.google.com/drive/folders/1qoOboyUSRnXn8mQilmMxAfC0HkrmsIyD?usp=sharing"},
+      {img : "988",link : "https://drive.google.com/drive/folders/13hPEhn-4m7oXjUlZ2ifXJmtGcpTvdKT8?usp=sharing"},
+      {img : "990B",link : "https://drive.google.com/drive/folders/1m8L0R8h1jmQU5t2axIeTUJa0497gO4-n?usp=sharing"},
+      {img : "6750",link : "https://drive.google.com/drive/folders/1MEh-F3r5RUDRyC9-SoFiRS2aa2cpGluL?usp=sharing"},
+      {img : "6750L",link : "https://drive.google.com/drive/folders/1lJ2ohWDBtVo3GLIy7ZISBk0fKEZrEAaZ?usp=sharing"},
+      {img : "6750VL",link : "https://drive.google.com/drive/folders/1EIZw0ulYu7YDgJ1HcpPnSCUEz90DfJFz?usp=sharing"},
+      {img : "6751L",link : "https://drive.google.com/drive/folders/1wyhfo9g4J_trb4lu2Bh_UEhoERvLKFsw?usp=sharing"},
+      ]
+    };
+    var html = template(values);
+    $("#dataArea-9").html(html);
+
+  // data 10
+  var source = $("#smartphone").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {img : "smartphone_1",link : "https://drive.google.com/file/d/15B91Z_bjulumTPG2zwv9l25NrvIIz668/view?usp=sharing"},
+      {img : "smartphone_2",link : "https://drive.google.com/file/d/1zJBzRlE6UXxRMRh-RrsEbT4f59yU9q0C/view?usp=sharing"},
+      {img : "smartphone_3",link : "https://drive.google.com/file/d/1lE0_TTCzxQzW3WGOQrObMajZ0GreUI_z/view?usp=sharing"},
+
+      ]
+    };
+    var html = template(values);
+    $("#dataArea-10").html(html);
+
+  // data 11
+  var source = $("#outdoorad").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {img : "outdoorad_1",link : "https://drive.google.com/file/d/1xboqLyS-fMr5Exc6ao5II3_A_rfTTtex/view?usp=sharing"},
+      {img : "outdoorad_2",link : "https://drive.google.com/file/d/1s5hBTlTg8XA5G3XLs0x5FBqB3jtanMgX/view?usp=sharing"},
+      {img : "outdoorad_3",link : "https://drive.google.com/file/d/1C4FNdFigS8R3S55Lm6AbslTwxWFRxY05/view?usp=sharing"},
+      {img : "outdoorad_4",link : "https://drive.google.com/file/d/1YG5mjt238kKQWptqhX8EZds7d-HTxkpF/view?usp=sharing"},
+      {img : "outdoorad_5",link : "https://drive.google.com/file/d/1HJcLVpDWQFF1a44sAfK6adHK7XqcJUdF/view?usp=sharing"},
+      {img : "outdoorad_6",link : "https://drive.google.com/file/d/1OmvbO1IQylSZ5b_iwHB4Asuh0OQWrx-H/view?usp=sharing"},
+      {img : "outdoorad_7",link : "https://drive.google.com/file/d/1SJywwu8966xUK3zIsUoBoMr_BeBU-kwV/view?usp=sharing"},
+      {img : "outdoorad_8",link : "https://drive.google.com/file/d/1MjqJ6fpIGXf0fAEqH2BbWSYots83vY0g/view?usp=sharing"},
+
+      ]
+    };
+    var html = template(values);
+    $("#dataArea-11").html(html);
+
+  // data 12
+  var source = $("#box").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {img : "box_1",link : "https://drive.google.com/file/d/1gquY_Lf3fSLQEuKXeG0UqQJBmAqF2An-/view?usp=sharing"},
+      {img : "box_2",link : "https://drive.google.com/file/d/1nT1eFTLrVF2UEOMvArvWT0cNNe85AYB0/view?usp=sharing"},
+      {img : "box_3",link : "https://drive.google.com/file/d/1nPS_Nc_T4povtzBusB-uo7V-45YUc_iA/view?usp=sharing"},
+      {img : "box_4",link : "https://drive.google.com/file/d/18-D3Bws98DO3RiyJnKGAs4FO2mHeM3T1/view?usp=sharing"},
+      {img : "box_5",link : "https://drive.google.com/file/d/1TpZ87Au5ZJ976ng9gbTgWxuX5npGA_QZ/view?usp=sharing"},
+      {img : "box_6",link : "https://drive.google.com/file/d/1qhAo4LYj8Txu-NtuwlhA9bgpXdktQgJd/view?usp=sharing"},
+      {img : "box_7",link : "https://drive.google.com/file/d/1AfmLeAYW27xhjegSNT9moCNLW6h_AUiD/view?usp=sharing"},
+      {img : "box_8",link : "https://drive.google.com/file/d/1XsnuOTzlJE6r4psrTRD_qW2djAv2Q-RY/view?usp=sharing"},
+      {img : "box_9",link : "https://drive.google.com/file/d/1TxZeAkfpvhXvzTpnTgLDDhicFtCoHtAU/view?usp=sharing"},
+      {img : "box_10",link : "https://drive.google.com/file/d/18gXIzeAJQrZ2GoCBp0AHV1y5TfmSOyIK/view?usp=sharing"},
+      {img : "box_11",link : "https://drive.google.com/file/d/1n2XqWrpXKZkJxl8HRCsEH5tqrYNMRQxU/view?usp=sharing"},
+      {img : "box_12",link : "https://drive.google.com/file/d/14oh2PsX9KAc5W6bn1pgP_qHjk-v_beWw/view?usp=sharing"},
+      {img : "box_13",link : "https://drive.google.com/file/d/1tfIXvOytsf8Ry367UZfiSH7g4zyGoBgK/view?usp=sharing"},
+      {img : "box_14",link : "https://drive.google.com/file/d/10vJVFkfQHvU-6zEcTwDTTDabk1qMlz0Z/view?usp=sharing"},
+      {img : "box_15",link : "https://drive.google.com/file/d/10vJVFkfQHvU-6zEcTwDTTDabk1qMlz0Z/view?usp=sharing"},
+      {img : "box_16",link : "https://drive.google.com/file/d/1JY3cSjRETznOALIM4MUugsggGZHqFcHb/view?usp=sharing"},
+      {img : "box_17",link : "https://drive.google.com/file/d/18Qfu9NDGbdNyIrRohKTHLITFu0Gw4czy/view?usp=sharing"},
+      {img : "box_18",link : "https://drive.google.com/file/d/1MOl0EcsELZ67xDX5JPjZRi6CsW2QbhtR/view?usp=sharing"},
+      {img : "box_19",link : "https://drive.google.com/file/d/1FJSSIaWA9MiapmbseaYyqWNvDx7VK42n/view?usp=sharing"},
+
+      ]
+    };
+    var html = template(values);
+    $("#dataArea-12").html(html);
+
+  // data 13
+  var source = $("#sign").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {img : "sign_1-30",link : "https://drive.google.com/drive/folders/10VukgA4ZocULow8Up1bXPv-5wVERpDhz?usp=sharing"},
+      {img : "sign_31-60",link : "https://drive.google.com/drive/folders/1B3nbA70nv7T4X3peJrC5Qv3pqId-aqkQ?usp=sharing"},
+      {img : "sign_61-90",link : "https://drive.google.com/drive/folders/1Y-kE7rET_-zbpBCCeKH7Q92aYIlck2Ls?usp=sharing"},
+      {img : "sign_91-120",link : "https://drive.google.com/drive/folders/11Q1i_WpWKnvDHjsokg1XnJNiP-nyJ7rY?usp=sharing"},
+      {img : "sign_121-157",link : "https://drive.google.com/drive/folders/1bQAHEOwNLmYoBw4f3hKTPOHghL-glu_3?usp=sharing"},
+
+
+      ]
+    };
+    var html = template(values);
+    $("#dataArea-13").html(html);
+
+  // data 14
+  var source = $("#frame").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {img : "frame_1",link : "https://drive.google.com/file/d/1oW1slb5-Pd9DXRJB-fohJzCzQkKHCKTd/view?usp=sharing"},
+      {img : "frame_2",link : "https://drive.google.com/file/d/1BTPvzPRmqy7pOdx-XnBFGooBbwC1O_eP/view?usp=sharing"},
+      {img : "frame_3",link : "https://drive.google.com/file/d/1HPUhnAcAGGue8kUwXWGseh82yTZH5KfV/view?usp=sharing"},
+      {img : "frame_4",link : "https://drive.google.com/file/d/1eYS5H3raRmdzg31-VRwM-Zdpye3XW0Oe/view?usp=sharing"},
+      {img : "frame_5",link : "https://drive.google.com/file/d/1Tmsb_ogSTOIsNZqFEfuZxBuWw_VSL-q6/view?usp=sharing"},
+      {img : "frame_6",link : "https://drive.google.com/file/d/1TNYHpTDLAYSf7yZcFgqSvU_M36I0qt5z/view?usp=sharing"},
+      {img : "frame_7",link : "https://drive.google.com/file/d/1qvm98L1d0lRovWdTMUuDWuqejkOFQoah/view?usp=sharing"},
+      {img : "frame_8",link : "https://drive.google.com/file/d/1D59Ymf_5QpIg-wIufzNQrE0iU3xZrfwZ/view?usp=sharing"},
+      {img : "frame_9",link : "https://drive.google.com/file/d/1vpiXINzqbv5ImUuzFSv47PzHZbX10cI_/view?usp=sharing"},
+      {img : "frame_10",link : "https://drive.google.com/file/d/1gJiEocaW5rUZilK1UI8imnG9TYTEcKIq/view?usp=sharing"},
+      {img : "frame_11",link : "https://drive.google.com/file/d/1_ObqOr6Buanp-IuakMYowUIXoRQlxyz6/view?usp=sharing"},
+      ]
+    };
+    var html = template(values);
+    $("#dataArea-14").html(html);
+
+  // data 15
+  var source = $("#pillow").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {img : "pillow_1",link : "https://drive.google.com/file/d/1muaLudCi-UExLjK5_wYYdVuXSHYHjbM-/view?usp=sharing"},
+      {img : "pillow_2",link : "https://drive.google.com/file/d/1--u3sDHtZP5FlymSgGpdsA83pJrMSfzm/view?usp=sharing"},
+      {img : "pillow_3",link : "https://drive.google.com/file/d/1PCuTsXGNCrjzqTyZQVH8I8nrpo-JESGw/view?usp=sharing"},
+      {img : "pillow_4",link : "https://drive.google.com/file/d/1cwYhIxrZDo9iGjluooPoJK3t4eRGn4Uv/view?usp=sharing"},
+      ]
+    };
+    var html = template(values);
+    $("#dataArea-15").html(html);
+
+    // filter
+    var source = $("#filterArea").html();
+    var template = Handlebars.compile(source);
+    var values = {
+        data: [
+            {filterClass : "btn-all active" ,filterName : "all"},
+            {filterClass : "btn-device" ,filterName : "device"},
+            {filterClass : "btn-food" ,filterName : "food"},
+            {filterClass : "btn-business" ,filterName : "business"},
+            {filterClass : "btn-brochure" ,filterName : "brochure"},
+            {filterClass : "btn-cosmetic" ,filterName : "cosmetic"},
+            {filterClass : "btn-plant" ,filterName : "plant"},
+            {filterClass : "btn-wedding" ,filterName : "wedding"},
+            {filterClass : "btn-brand" ,filterName : "brand"},
+            {filterClass : "btn-wear" ,filterName : "wear"},
+            {filterClass : "btn-outdoorad" ,filterName : "outdoorad"},
+            {filterClass : "btn-box" ,filterName : "box"},
+            {filterClass : "btn-sign" ,filterName : "sign"},
+            {filterClass : "btn-frame" ,filterName : "frame"},
+            {filterClass : "btn-pillow" ,filterName : "pillow"},
+            ]
+          };
+          var html = template(values);
+          $("#filter").html(html);
+    //filter dataSection
+      $(".btn-all").click(function(){
+        $(".filter_box").removeClass("active");
+        $(this).toggleClass("active");
+        $(".dataArea").addClass("active");
+      });
+      $(".btn-device").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-1,#dataArea-10").addClass("active");});
+      $(".btn-food").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-2").addClass("active");});
+      $(".btn-business").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-3").addClass("active");});
+      $(".btn-brochure").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-4").addClass("active");});
+      $(".btn-cosmetic").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-5").addClass("active");});
+      $(".btn-plant").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-6").addClass("active");});
+      $(".btn-wedding").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-7").addClass("active");});
+      $(".btn-brand").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-8").addClass("active");});
+      $(".btn-wear").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-9").addClass("active");});
+      $(".btn-outdoorad").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-11").addClass("active");});
+      $(".btn-box").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-12").addClass("active");});
+      $(".btn-sign").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-13").addClass("active");});
+      $(".btn-frame").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-14").addClass("active");});
+      $(".btn-pillow").click(function(){$(".filter_box , .dataArea").removeClass("active");$(this).toggleClass("active");$("#dataArea-15").addClass("active");});
+
+
+
 
   // sample
   // var source = $("#").html();
