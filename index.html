@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Design Data</title>
+  <link rel="fluid-icon" href="images/logo.png" >
   <!-- Include Handlebars from a CDN -->
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -22,7 +23,7 @@
     </ul>
   </header>
   <section class="filter" id="filter">
-      <script type="text/x-handlebars-template" id="filterArea">
+    <script type="text/x-handlebars-template" id="filterArea">
       {{#each data}}
         <div class="filter_box {{filterClass}}">
           <button type="button" class="">{{filterName}}</button>
@@ -34,7 +35,7 @@
       <script type="text/x-handlebars-template" id="otherArea">
       {{#each data}}
         <div class="other_box">
-          <a href="{{link}}">{{fileName}}</a>
+          <a href="{{link}}" target="_blank">{{fileName}}</a>
         </div>
       {{/each}}
     </script>

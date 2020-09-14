@@ -35,31 +35,42 @@ header {
     }
   }
 }
-.filter{
+
+.filter,
+.other {
   width: 1440px;
   margin: 0 auto;
   padding-bottom: 50px;
   display: flex;
-  justify-content: space-between;
-  .filter_box{
-    button{
-    background: #fff;
-    margin-right: 20px;
-    font-family: $font;
-    font-weight: bold;
-    font-size: 16px;
-    color: #333;
-    border: 2px solid #333;
-    border-radius: 2px;
-    cursor: pointer;
-  }
-  &.active button{
-    background: #333;
-    color: #fff;
-  }
+  // justify-content: space-around;
 
+  .filter_box,
+  .other_box {
+    a,
+    button {
+      background: #fff;
+      margin-right: 20px;
+      font-family: $font;
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+      border: 2px solid #333;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+
+    a {
+      text-decoration: none;
+      padding: 8px 16px;
+    }
+
+    &.active button {
+      background: #333;
+      color: #fff;
+    }
   }
 }
+
 .dataSection {
   max-width: 1440px;
   padding: 0 40px;
@@ -88,7 +99,8 @@ header {
     flex-wrap: wrap;
     justify-content: flex-start;
     display: none;
-    &.active{
+
+    &.active {
       display: flex;
     }
 
@@ -117,7 +129,6 @@ header {
         flex-direction: row;
         justify-content: space-between;
 
-
         a {
           display: block;
           width: 100%;
@@ -130,20 +141,24 @@ header {
           font-size: 16px;
           color: #fdfdfd;
           text-align: center;
-          &.btn2{
+
+          &.btn2 {
             width: 49.5%;
           }
-          &.btn3{
+
+          &.btn3 {
             width: 33.3%;
           }
         }
       }
     }
-    &#dataArea-1{
-      .dataBox:first-child{
-        .dataDlBtn a{
+
+    &#dataArea-1 {
+      .dataBox:first-child {
+        .dataDlBtn a {
           width: 100%;
-          &:last-child{
+
+          &:last-child {
             display: none;
           }
         }
