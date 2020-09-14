@@ -751,6 +751,32 @@ $(document).ready(function() {
     var html = template(values);
     $("#dataArea-15").html(html);
 
+  // data 16 background
+  var source = $("#pillow").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {img : "pillow_1",link : "https://drive.google.com/file/d/1muaLudCi-UExLjK5_wYYdVuXSHYHjbM-/view?usp=sharing"},
+      {img : "pillow_2",link : "https://drive.google.com/file/d/1--u3sDHtZP5FlymSgGpdsA83pJrMSfzm/view?usp=sharing"},
+      {img : "pillow_3",link : "https://drive.google.com/file/d/1PCuTsXGNCrjzqTyZQVH8I8nrpo-JESGw/view?usp=sharing"},
+      {img : "pillow_4",link : "https://drive.google.com/file/d/1cwYhIxrZDo9iGjluooPoJK3t4eRGn4Uv/view?usp=sharing"},
+      ]
+    };
+    var html = template(values);
+    $("#dataArea-15").html(html);
+
+  // other Data
+  var source = $("#otherArea").html();
+  var template = Handlebars.compile(source);
+  var values = {
+    data: [
+      {fileName : "background",link : "https://drive.google.com/drive/folders/1h16IlDzdI3ugwD0ElmpolOfHmos-e2pY?usp=sharing"},
+      {fileName : "brush",link : "https://drive.google.com/drive/folders/1mYZigLiCmrDuhF0xIRdqZHGn3QdIwwEO?usp=sharing"},
+      ]
+    };
+    var html = template(values);
+    $("#other").html(html);
+
     // filter
     var source = $("#filterArea").html();
     var template = Handlebars.compile(source);
